@@ -1,0 +1,9 @@
+F:\CppProj\Scratch3Convet\Scratch3Convet\bin\Debug\Scratch3Convet.exe.config
+F:\CppProj\Scratch3Convet\Scratch3Convet\bin\Debug\Scratch3Convet.exe
+F:\CppProj\Scratch3Convet\Scratch3Convet\bin\Debug\Scratch3Convet.pdb
+F:\CppProj\Scratch3Convet\Scratch3Convet\obj\Debug\Scratch3Convet.csprojResolveAssemblyReference.cache
+F:\CppProj\Scratch3Convet\Scratch3Convet\obj\Debug\Scratch3Convet.Properties.Resources.resources
+F:\CppProj\Scratch3Convet\Scratch3Convet\obj\Debug\Scratch3Convet.csproj.GenerateResource.Cache
+F:\CppProj\Scratch3Convet\Scratch3Convet\obj\Debug\Scratch3Convet.exe
+F:\CppProj\Scratch3Convet\Scratch3Convet\obj\Debug\Scratch3Convet.pdb
+F:\CppProj\Scratch3Convet\Scratch3Convet\obj\Debug\Scratch3Convet.Scratch3Convert.resources

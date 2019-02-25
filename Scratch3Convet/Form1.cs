@@ -18,13 +18,7 @@ namespace Scratch3Convet
     {
         [DllImport("scratch3convert.dll", CallingConvention = CallingConvention.Cdecl)]
         private static extern int sc3convert_convert(IntPtr file);
-        public static int convert(string file)
-        {
-            IntPtr arg = Marshal.StringToHGlobalAnsi(file);
-            int result = sc3convert_convert(arg);
-            //Marshal.FreeHGlobal(arg);
-            return result;
-        }
+       
         public Scratch3Convert()
         {
             InitializeComponent();
@@ -35,11 +29,20 @@ namespace Scratch3Convet
 
         }
 
+        public static int convert(string file)
+        {
+            IntPtr arg = Marshal.StringToHGlobalAnsi(file);
+            int result = sc3convert_convert(arg);
+            //Marshal.FreeHGlobal(arg);
+            //Marshal.ReleaseComObject(arg);
+            //DisplayMemory();
+            return result;
+        }
 
-       private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             
-            string str;
+            //string str;
             string path = string.Empty;
             var openFileDialog = new Microsoft.Win32.OpenFileDialog()
             {
@@ -50,7 +53,7 @@ namespace Scratch3Convet
             {
                 path = openFileDialog.FileName;
             }
-            Console.WriteLine(path);
+            //Console.WriteLine(path);
             if (convert(path) == 1)
             {
                 MessageBox.Show("Success!");

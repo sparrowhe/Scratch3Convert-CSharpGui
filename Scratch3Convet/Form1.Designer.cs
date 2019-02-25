@@ -33,7 +33,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(12, 12);
+            this.button2.Location = new System.Drawing.Point(14, 12);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(179, 43);
             this.button2.TabIndex = 1;
@@ -45,7 +45,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(200, 67);
+            this.ClientSize = new System.Drawing.Size(207, 67);
             this.Controls.Add(this.button2);
             this.Name = "Scratch3Convert";
             this.Text = "Convert";
